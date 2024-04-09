@@ -1,0 +1,228 @@
+body{
+    background-color: antiquewhite;
+    background-image: url('img/cam2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-left: 7%;
+    padding-right: 7%;;
+
+}
+
+header{
+    display: flex;
+    background-color:rgba(255, 255, 255, 0.349);
+    padding: 5px;
+    justify-content: space-between;
+    align-content: center;
+}
+nav {
+    padding: 5px;
+    display: flex;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    margin-right: 10px;
+    padding-top: 30px;
+    display: inline-block;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding: 4px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+nav a:hover {
+    background-color: rgb(47, 79, 79);;
+    color:white;
+    border-radius: 40px;
+    
+}
+.brand img {
+    width: 75px;
+    height: 75px
+}
+
+.center{
+    text-align: center;
+    
+}
+.title{
+    font-weight: 700;
+    font-size: 35px;
+    height: 35vh;
+    margin-top: 180px;
+    font-family: Helvetica, sans-serif;
+    line-height: 1;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin: 20px;
+    border-radius: 5px;
+}
+.btn-secundary {
+    padding: 10px 20px;
+    background-color: #c22e2e;
+    color: white;
+    border: none;
+    margin: 20px;
+    border-radius: 5px;
+    
+}
+
+.btn{
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.btn-primary:hover{
+    background-color: #1d8f21;
+}
+.btn-secundary:hover{
+    background-color: #861818
+}
+
+#page-container {
+    position: relative;
+    min-height: 70vh;
+}
+  
+#content-wrap {
+    margin-top: 8%;
+    padding-bottom: 2.5rem;   /* altura de pie de página */
+    background: rgb(255, 255, 255, .8) 
+}
+  
+#footer {
+    /* background-color: rgb(36, 36, 36);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4.5rem;   
+    padding: 1;         altura de pie de página */
+
+    margin-top:150px;
+    width:100%;
+    height:4.5rem;
+    background-color: rgb(36, 36, 36);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30% 9%;
+    text-align: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.541);
+
+}
+
+.grid div{
+    padding:  1.5em;
+}
+
+.grid a{
+    color: rgba(255, 255, 255, 0.541);
+    transition: 0.5s;
+}
+.grid a:hover{
+    color: #b92c2c;
+}
+
+.logo-wsp{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    transition: .5s;
+}
+
+.logo-wsp:hover{
+    width: 30px;
+    height: 30px;
+}
+
+.content-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+    padding-bottom: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
+    gap: 18px;
+    height: 35vh;
+    margin-right: 40px;
+}
+
+
+.content-grid div{
+    background-color: rgb(165, 165, 165, .5);
+    border-radius: 20px;
+    transition: .5s;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 10px rgb(167, 167, 167);
+}
+
+.content-grid div:hover{
+    /* background-color: rgb(128, 128, 128, .8); */
+    /* box-shadow: 4px 4px 4px rgb(167, 167, 167); */
+    box-shadow: 4px 4px 4px rgb(20, 20, 20);
+    background-color: rgb(47, 79, 79);
+    /* outline: none; */
+    color: white;
+}
+.content-grid p{ 
+    font-size: 25px;
+    margin: 2%;
+}
+
+
+.logo-servicio{
+    margin-top: 5px;
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+}
+
+.block{
+    display: inline-block;
+}
+
+h1{
+    font-family: sans-serif;
+}
+
+.titulo-servicios h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 300%;
+}
+.titulo-servicios h1{
+    padding-top: 35px;
+}
+
